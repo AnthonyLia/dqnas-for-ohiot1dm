@@ -1,0 +1,1 @@
+This is a placeholder folder to designate where the data is stored relative to the project folder. This data is free upon request from Ohio University, but it not publicized as propagation of the data is still intended to be minimized.
