@@ -29,7 +29,7 @@ train_new_y=train_y[:100]'''
 
 
 patient_numbers = [540,544,552,559,563,567,570,575,584,588,591,596]
-patient_numbers = [563]
+#patient_numbers = [563]
 patient_data = {540:{},544:{},552:{},559:{},563:{},567:{},570:{},575:{},584:{},588:{},591:{},596:{}}
 
 for patient in patient_numbers:
