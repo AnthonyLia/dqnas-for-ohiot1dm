@@ -149,7 +149,7 @@ class DQNAgent (CNNSearchSpace):
                         next=np.array([vocab_idx[list_rep.index(best_action)]])
                         #print(f'type in else is {type(next)}')
                         #print(f'next in else is {next}')
-                        print(f'used controller action {self.EPSILON}')
+                        #print(f'used controller action {self.EPSILON}')
                 else:
                     best_action= min(probab[0])
                     list_rep=probab[0].tolist()
@@ -233,7 +233,7 @@ class DQNAgent (CNNSearchSpace):
                         seed.append(next)
                 else:
                     self.EPSILON += 0.1
-                    print('added to espilon :)')
+                    print('added to espilon')
                     continue
             # check if the generated sequence has been generated before.
             # if not, add it to the sequence data. 
