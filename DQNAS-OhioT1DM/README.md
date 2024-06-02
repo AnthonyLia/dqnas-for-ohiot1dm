@@ -5,6 +5,7 @@ Reinforcement Learning by Anshumaan Chauhan at https://github.com/Anshumaan-Chau
 - Models are saved as "5___weights.keras" files, and opened in "usage.py" or "usage_render_research_images.py"
 
 File Summaries:
+
 CNNCONSTANTS.py - This file holds constants for training parameters like controller epoch numbers, child-network epoch limit, child-network architecture length, etc.
 
 CNNGenerator.py - This file is mainly used for setting up the child neural networks from a defined search-space vocabulary. It compiles the models, and also trains them when called.
